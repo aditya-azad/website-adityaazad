@@ -1,0 +1,190 @@
+body {
+    font-family: "Roboto Mono", "Noto Sans", Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+}
+
+.title {
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 0;
+    margin-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 20px;
+}
+
+hr {
+    height: 2px;
+    border: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+nav {
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+}
+
+input {
+    font-size: 16px;
+}
+
+content {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    font-family: "Roboto Mono", 'Courier New', Courier, monospace;
+    padding: 2px 5px;
+}
+
+pre code {
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+div.highlight pre {
+    background-color: initial;
+    color: initial;
+}
+
+div.highlight code {
+    background-color: unset;
+    color: unset;
+}
+
+blockquote {
+    border-left: 1px solid rgb(108, 108, 108);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+}
+
+.errorlist {
+    font-size: small;
+}
+
+
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 130px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(193, 193, 193);
+}
+
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+    color: #eee;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+code {
+    background-color: #272822;
+}
+
+pre code {
+    color: #ddd;
+}
+
+blockquote {
+    color: rgb(108, 108, 108);
+}
+
+textarea,
+input {
+    background-color: #252525;
+    color: #ddd;
+}
+
+.helptext {
+    color: #aaa;
+}
+
+.errorlist {
+    color: #eba613;
+}
+
+hr {
+    background-color: rgb(44, 44, 44);
+}
+
+.header-divider {
+    background-color: rgb(108, 108, 108);
+}
+
+a {
+    text-decoration-color: rgb(108, 108, 108);
+}
+
+a:hover {
+    text-decoration-color: rgb(14, 255, 14);
+}
