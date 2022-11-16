@@ -38,6 +38,7 @@
   </header>
 
   <main>
+    <img id="cover" src="/cover/cover0.png" alt="cover"/>
     <p>Hi, I&rsquo;m Aditya. I love to code and build things from scratch. I keep experimenting with various technologies and programming languages in my free time. Apart from computers, I also have an interest in digital art.</p>
     <p>Below are some of my projects that you might find interesting.</p>
 
@@ -69,9 +70,12 @@
       <li><a href="https://instagram.com/_aditya_azad_">Instagram</a></li>
       <li><a href="https://mas.to/@aditya_azad">Mastodon</a></li>
     </ul>
-
   </main>
-
+  <script>
+    "use strict";
+    let elem = document.getElementById("cover");
+    elem.src = "/cover/cover" + Math.floor(Math.random() * 18) + "-min.png";
+  </script>
   <footer>
     <small>&copy; Copyright 2022-Present, Aditya Azad</small>
   </footer>
