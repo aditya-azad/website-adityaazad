@@ -1,0 +1,42 @@
+{% use_template main_layout %}
+<img id="cover" src="/cover/cover0-min.png" alt="cover" />
+<p>Hi, I&rsquo;m Aditya. I love to code and build things from scratch. I keep experimenting with various
+    technologies and programming languages in my free time. Apart from computers, I also have an interest in digital
+    art.</p>
+<p>Below are some of my projects that you might find interesting.</p>
+
+<h1 id="side-projects">Side Projects</h1>
+<ul>
+
+    <li>
+        <p><a href="{% fill_global destined_link %}">Destined</a> <em>(Desktop App)</em></p>
+        <ul>
+            <li>Getting things done / todo desktop application</li>
+            <li>Schedule and repeat tasks at fixed interval</li>
+            <li>No servers involved</li>
+        </ul>
+    </li>
+
+    <li>
+        <p><a href="{% fill_global candle_grey_link %}">Candle Grey</a> <em>(Vim Color Scheme)</em></p>
+        <ul>
+            <li>Most basic dark color scheme for vim editor</li>
+            <li>Does not look ancient</li>
+        </ul>
+    </li>
+
+</ul>
+<h1 id="reach-me">Reach me</h1>
+<ul>
+    <li><a href="{% fill_global github_link %}">Github</a></li>
+    <li><a href="{% fill_global linkedin_link %}">LinkedIn</a></li>
+    <li><a href="{% fill_global instagram_link %}">Instagram</a></li>
+    <li><a href="{% fill_global twitter_link %}">Twitter</a></li>
+    <li><a href="{% fill_global mastodon_link %}">Mastodon</a></li>
+
+</ul>
+<script>
+    "use strict";
+    let elem = document.getElementById("cover");
+    elem.src = "/cover/cover" + Math.floor(Math.random() * 18) + "-min.png";
+</script>
