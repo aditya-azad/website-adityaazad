@@ -35,7 +35,7 @@
     <nav>
         <a href="/" class="title button">Home</a>
     </nav>
-    <div class="button" id="theme-switch" onclick="toggleTheme()">🌞</div>
+    <button class="button" id="theme-switch" onclick="toggleTheme()">🌞</button>
     <script>
         function setTheme(theme) {
             localStorage.setItem('theme', theme)
@@ -55,10 +55,10 @@
             }
         }
         (function () {
-            if (localStorage.getItem('theme') === 'dark-theme') {
-                setTheme('dark-theme');
-            } else {
+            if (localStorage.getItem('theme') === 'light-theme') {
                 setTheme('light-theme');
+            } else {
+                setTheme('dark-theme');
             }
         })();
     </script>
