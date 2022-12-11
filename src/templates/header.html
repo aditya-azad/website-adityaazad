@@ -1,4 +1,32 @@
 <header>
-    <a href="/" class="title">Home</a>
-    <nav></nav>
+    <nav>
+        <a href="/" class="title button">Home</a>
+    </nav>
+    <div class="button" id="theme-switch" onclick="toggleTheme()">🌞</div>
+    <script>
+        function setTheme(theme) {
+            localStorage.setItem('theme', theme)
+            document.body.className = theme;
+            let themeButton = document.getElementById('theme-switch');
+            if (theme === 'dark-theme') {
+                themeButton.innerText = '🌞';
+            } else {
+                themeButton.innerText = '🌙';
+            }
+        }
+        function toggleTheme() {
+            if (localStorage.getItem('theme') === 'dark-theme') {
+                setTheme('light-theme');
+            } else {
+                setTheme('dark-theme');
+            }
+        }
+        (function () {
+            if (localStorage.getItem('theme') === 'dark-theme') {
+                setTheme('dark-theme');
+            } else {
+                setTheme('light-theme');
+            }
+        })();
+    </script>
 </header>
