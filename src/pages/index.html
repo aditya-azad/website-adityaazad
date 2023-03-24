@@ -1,4 +1,4 @@
-{% use_template main_layout %}
+{% template main_layout.html %}
 <h1>👋 I'm Aditya.</h1>
 <img id="cover" src="/cover/cover0-min.png" alt="cover" />
 <p>I love to code and build things from scratch. I keep experimenting with various
@@ -10,7 +10,7 @@
 <ul>
 
     <li>
-        <p><a href="{% fill_global destined_link %}">Destined</a> <em>(Desktop App)</em></p>
+        <p><a href="{% global destined_link %}">Destined</a> <em>(Desktop App)</em></p>
         <ul>
             <li>Getting things done / todo desktop application</li>
             <li>Schedule and repeat tasks at fixed interval</li>
@@ -19,7 +19,7 @@
     </li>
 
     <li>
-        <p><a href="{% fill_global simple_ssg_link %}">Simple SSG</a> <em>(Command Line Application)</em></p>
+        <p><a href="{% global simple_ssg_link %}">Simple SSG</a> <em>(Command Line Application)</em></p>
         <ul>
             <li>A static site generator with minimal templating language</li>
             <li>Markdown support, lossless image compression and file minification</li>
@@ -28,7 +28,7 @@
     </li>
 
     <li>
-        <p><a href="{% fill_global candle_grey_link %}">Candle Grey</a> <em>(Vim Color Scheme)</em></p>
+        <p><a href="{% global candle_grey_link %}">Candle Grey</a> <em>(Vim Color Scheme)</em></p>
         <ul>
             <li>Most basic dark color scheme for vim editor</li>
             <li>Does not look ancient</li>
@@ -38,15 +38,15 @@
 </ul>
 <h2 id="reach-me">Reach me</h2>
 <ul>
-    <li><a href="{% fill_global github_link %}">Github</a></li>
-    <li><a href="{% fill_global linkedin_link %}">LinkedIn</a></li>
-    <li><a href="{% fill_global instagram_link %}">Instagram</a></li>
-    <li><a href="{% fill_global twitter_link %}">Twitter</a></li>
-    <li><a href="{% fill_global mastodon_link %}">Mastodon</a></li>
+    <li><a href="{% global github_link %}">Github</a></li>
+    <li><a href="{% global linkedin_link %}">LinkedIn</a></li>
+    <li><a href="{% global instagram_link %}">Instagram</a></li>
+    <li><a href="{% global twitter_link %}">Twitter</a></li>
+    <li><a href="{% global mastodon_link %}">Mastodon</a></li>
 
 </ul>
 <script>
     "use strict";
     let elem = document.getElementById("cover");
-    elem.src = "/cover/cover" + Math.floor(Math.random() * 18) + "-min.png";
+    elem.src = "/cover/cover" + Math.floor(Math.random() * 12) + "-min.png";
 </script>

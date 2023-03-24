@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-{% fill_template head %}
+{% expand head.html %}
 
 <body class="dark-theme">
-    {% fill_template header %}
+    {% expand header.html %}
     <main>
-        {% fill_content %}
+        {% content %}
     </main>
-    {% fill_template footer %}
+    {% expand footer.html %}
 </body>
 
 </html>
