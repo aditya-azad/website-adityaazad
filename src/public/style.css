@@ -19,11 +19,20 @@
     --color-link: rgb(49, 211, 49);
 }
 
+svg path {
+    fill: var(--color-background);
+    stroke: var(--color-foreground);
+}
+
+svg text {
+    fill: var(--color-foreground);
+}
+
 body {
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
-    padding: 20px;
-    max-width: 720px;
+    padding: 24px;
+    max-width: 724px;
     text-align: left;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -39,7 +48,7 @@ body {
 img {
     max-width: 100%;
     border: 4px solid var(--color-foreground);
-    box-shadow: 5px 5px var(--color-dark-text);
+    box-shadow: 4px 4px var(--color-dark-text);
 }
 
 p {
@@ -60,11 +69,12 @@ h4,
 h5,
 h6 {
     font-family: "Merriweather", "Times New Roman", Times, serif;
-    margin-top: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-ul {
-    padding-left: 20px;
+ul, ol {
+    padding-left: 32px;
 }
 
 a {
@@ -85,7 +95,7 @@ th {
 }
 
 table {
-    box-shadow: 5px 5px var(--color-dark-text);
+    box-shadow: 4px 4px var(--color-dark-text);
 }
 
 hr {
@@ -93,14 +103,14 @@ hr {
 }
 
 mark {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
 pre {
     border: 4px solid var(--color-foreground);
-    padding: 15px 30px;
-    box-shadow: 5px 5px var(--color-dark-text);
+    padding: 14px 32px;
+    box-shadow: 4px 4px var(--color-dark-text);
     font-size: 14px;
 }
 
@@ -115,24 +125,24 @@ table {
 
 td,
 th {
-    padding: 5px;
+    padding: 4px;
 }
 
 header {
     font-style: normal;
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 nav a {
     text-decoration: none;
     font-style: normal;
-    margin-right: 20px;
+    margin-right: 24px;
 }
 
 main {
@@ -140,7 +150,7 @@ main {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 svg {
@@ -176,8 +186,8 @@ footer {
     display: flex;
     flex-direction: column;
     color: var(--color-dark-text);
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 footer a {
@@ -198,14 +208,14 @@ footer a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .button {
     background-color: var(--color-foreground);
     color: var(--color-background);
-    padding: 5px;
-    box-shadow: 5px 5px var(--color-dark-text);
+    padding: 4px;
+    box-shadow: 4px 4px var(--color-dark-text);
 }
 
 .button:hover {
@@ -220,4 +230,9 @@ footer a {
     align-items: center;
     font-size: 1em;
     border-radius: 50%;
+}
+
+#greeting {
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
