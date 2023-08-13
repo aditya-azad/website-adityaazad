@@ -202,6 +202,17 @@ footer a {
     cursor: pointer;
 }
 
+.landing-title {
+    margin-top: 20px;
+}
+
+.center-page {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
 #theme-switch {
     display: flex;
     justify-content: center;
