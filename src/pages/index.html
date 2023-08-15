@@ -1,39 +1,15 @@
 {% template main_layout.html %}
-<h1>👋 I'm Aditya.</h1>
+<h1 class="landing-title">Hello! I'm Aditya 👋</h1>
 <img id="cover" src="/cover/cover0-min.png" alt="cover" />
-<p>I love to code and build things from scratch. I keep experimenting with various technologies and programming languages in my free time. Apart from computers, I also have an interest in art.</p>
-<p>Below are some of my projects that you might find interesting.</p>
-
-<h2 id="projects">Projects</h2>
 <ul>
-
-    <li>
-        <p><a href="{% global simple_ssg_link %}">Simple SSG</a> <em>(2022)</em></p>
-        A command line static site generator with minimal templating language. Supports markdown support, lossless image compression and file minification. Easy to learn.
-    </li>
-
-    <li>
-        <p><a href="{% global destined_link %}">Destined</a> <em>(2020)</em></p>
-        Getting things done / todo desktop application. Schedule and repeat tasks at fixed interval. No servers involved.
-    </li>
-
-    <li>
-        <p><a href="{% global candle_grey_link %}">Candle Grey</a> <em>(2020)</em></p>
-        Most basic dark color scheme for vim editor.
-    </li>
-
+    <li>Find all my open source code on <a href="{% global github_link %}">Github</a>.</li>
+    <li>I also like to paint sometimes (<a href="{% global instagram_link %}">Instagram</a>).</li>
+    <li>Looking for soneone with my skills? Here's my <a href="{% global linkedin_link %}">LinkedIn</a>.</li>
+    <li>There's also <a href="{% global twitter_link %}">Twitter</a>.</li>
 </ul>
-<h2 id="reach-me">Reach me</h2>
-<ul>
-    <li><a href="{% global github_link %}">Github</a></li>
-    <li><a href="{% global linkedin_link %}">LinkedIn</a></li>
-    <li><a href="{% global instagram_link %}">Instagram</a></li>
-    <li><a href="{% global twitter_link %}">Twitter</a></li>
-    <li><a href="{% global mastodon_link %}">Mastodon</a></li>
 
-</ul>
 <script>
     "use strict";
     let elem = document.getElementById("cover");
-    elem.src = "/cover/cover" + Math.floor(Math.random() * 12) + "-min.png";
+    elem.src = "/cover/cover" + Math.floor(Math.random() * 15) + "-min.png";
 </script>
