@@ -8,16 +8,6 @@
     <li>There's also <a href="{% global twitter_link %}">Twitter</a>.</li>
 </ul>
 
-<h2>Blog Posts</h2>
-
-<ul class="post-list">
-    {% for page in _rsort(posts,date)
-    <li>
-      <div><a href="{$page._slug$}">{$page.title$}</a></div>
-      <div>{$page.date$}</div>
-    </li> %}
-</ul>
-
 <script>
     "use strict";
     let elem = document.getElementById("cover");
