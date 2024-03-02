@@ -1,0 +1,6 @@
+baseURL = 'https://adityaazad.com/'
+languageCode = 'en-us'
+title = 'Aditya Azad'
+theme = 'hugo-bearblog'
+[params]
+hideMadeWithLine = true
