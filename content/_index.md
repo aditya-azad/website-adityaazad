@@ -1,28 +1,18 @@
 +++
-# This title is used as the og:title on Hugo's internal
-# opengraph structured data template on the home page.
-# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "Hugo ʕ•ᴥ•ʔ Bear"
+title = "Home"
 +++
 
-# A match made in heaven
+# Hello! I'm Aditya 👋
 
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
+I like to tinker with things, _especially software_. I like to take them apart and build them from scratch. I have worked on various software projects, many of which are accessible online. My portfolio includes full-stack applications and open-source contributions, but I always follow my curiosity.
 
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
-
-[Go to the original bear blog](https://bearblog.dev/).
+These days you can find me experimenting with machine learning projects, making games and working on my graduate degree.
 
 ---
 
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
+Get in touch. Seriously. Praise and/or criticism are always welcome.
 
-**Use this theme, and find out!**
-
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
-
----
-
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
-
-Each page is ~5kb, and you can **host your blog yourself**.
+- Find all my code on [Github](https://github.com/aditya-azad).
+- I also paint! Check out my work on [Instagram](https://instagram.com/_aditya_azad_).
+- Looking for someone with my skills? Here's my [LinkedIn](https://linkedin.com/in/aditya-azad).
+- There's also [Twitter](https://twitter.com/_aditya_azad_).
