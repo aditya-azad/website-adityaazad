@@ -2,13 +2,11 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
 <head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
 
   <!-- basic meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Personal Website | Blog | Portfolio" />
-  <meta name="keywords" content="blog,personal,website,portfolio" />
 
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -19,23 +17,14 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#000000">
 
-
-
+  <!-- title -->
   <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
-
-  {{- partial "seo_tags.html" . -}}
-  <meta name="referrer" content="no-referrer-when-downgrade" />
 
   {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
   {{- partial "style.html" . -}}
-
-  <!-- A partial to be overwritten by the user.
-  Simply place a custom_head.html into
-  your local /layouts/partials-directory -->
-  {{- partial "custom_head.html" . -}}
 </head>
 
 <body>
@@ -48,11 +37,6 @@
   <footer>
     {{- partial "footer.html" . -}}
   </footer>
-
-  <!-- A partial to be overwritten by the user.
-  Simply place a custom_body.html into
-  your local /layouts/partials-directory -->
-  {{- partial "custom_body.html" . -}}
 </body>
 
 </html>
