@@ -12,7 +12,7 @@ These days you can find me experimenting with machine learning projects, and wor
 
 ---
 
-Get in touch. Seriously. Praise and/or criticism are always welcome.
+Get in touch. Seriously.
 
 - Find all my code on [Github](https://github.com/aditya-azad).
 - I also paint! Check out my work on [Instagram](https://instagram.com/_aditya_azad_).
