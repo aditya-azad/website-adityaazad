@@ -14,10 +14,10 @@ These days you can find me experimenting with machine learning projects, and wor
 
 Get in touch. Seriously.
 
-- Find all my code on [Github](https://github.com/aditya-azad).
+- Find all my code on [GitHub](https://github.com/aditya-azad).
 - I also paint! Check out my work on [Instagram](https://instagram.com/_aditya_azad_).
 - Looking for someone with my skills? Here's my [LinkedIn](https://linkedin.com/in/aditya-azad).
-- There's also [Twitter](https://twitter.com/_aditya_azad_).
+- There's also [Twitter/X](https://twitter.com/_aditya_azad_).
 
 <script>
   document.getElementById("cover").src = "/cover/" + Math.floor(Math.random() * 18) + ".jpg";
