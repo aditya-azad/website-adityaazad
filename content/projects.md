@@ -8,7 +8,7 @@ These are some of my projects. Most of them are inspired by my needs at the time
 
 ![MindsDB GitHub Page](/projects/minds-db.png)
 
-I contributed to MindsDB during Hactoberfest 2023! I integrated [PyCaret](https://pycaret.org/), [NPM](https://www.npmjs.com/), [SAP ERP](https://www.sap.com/products/erp.html), [Lightdash](https://www.lightdash.com/), [PyPI](https://pypi.org/), [Apache Doris](https://doris.apache.org/), [Xata](https://xata.io/), [Milvus](https://milvus.io/) and [Pinecone](https://www.pinecone.io/) with MindsDB during the month of October. It was an incredible learning experience since I got to know how open source works in a for profit company, *and* improve all kinds of software adjacent skills at the same time. It was like a mini internship where I got to provide a lot of value in so little time.
+I contributed to MindsDB during Hactoberfest 2023! I integrated [PyCaret](https://pycaret.org/), [NPM](https://www.npmjs.com/), [SAP ERP](https://www.sap.com/products/erp.html), [Lightdash](https://www.lightdash.com/), [Apache Doris](https://doris.apache.org/), [Xata](https://xata.io/), [Milvus](https://milvus.io/) and [Pinecone](https://www.pinecone.io/) with MindsDB during the month of October. It was an incredible learning experience since I got to know how open source works in a for profit company, *and* improve all kinds of software adjacent skills at the same time. It was like a mini internship where I got to provide a lot of value in so little time.
 
 ## Personal Projects
 
