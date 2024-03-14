@@ -25,6 +25,6 @@ This is a colorscheme I designed for [Vim8](https://www.vim.org/vim-8.1-released
 ## Work
 
 I have worked as:
-- Teaching assistant for Systems Programming course at [Purdue](https://www.purdue.edu/) university
+- Undergraduate Teaching Assistant for Systems Programming course at [Purdue](https://www.purdue.edu/) University
 - Software Engineer Intern at [Cummins](https://www.cummins.com/)
 - Full-Stack Engineering contracts at [CRRI](https://crridom.gov.in/)
