@@ -1,8 +1,8 @@
-# Personal Website
+# adityaazad.com
 
-Source code of my personal website published [here](https://www.adityaazad.com/).
+Source code of my personal website published [here](https://www.adityaazad.com/)
 
-Built with:
-- [Hugo](https://gohugo.io/)
-- Modified [Bear Blog](https://themes.gohugo.io/themes/hugo-bearblog/) theme
+## Built with
+
+- [Simple SSG](https://github.com/aditya-azad/simple-ssg)
 - [Netlify](https://www.netlify.com/)
